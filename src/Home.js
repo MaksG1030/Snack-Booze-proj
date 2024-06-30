@@ -7,7 +7,7 @@ function Home({ menuItems }) {
 			<Card>
 				<CardBody className="text-center">
 					<CardTitle>
-						<h3 className="font-weight-bold">Welcome to Silicon Valley's premier dive cafe!</h3>
+						<h5 className="font-weight-bold">Welcome to Silicon Valley's premier dive cafe!</h5>
 					</CardTitle>
 					<span>
 						We have {menuItems.snacks.length} snacks and {menuItems.drinks.length} drinks.
